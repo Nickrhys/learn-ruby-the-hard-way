@@ -11,6 +11,13 @@ target = open(filename, 'w+')
 
 puts "Truncating the file. Goodbye!"
 target.truncate(0)
+=======
+puts "Now I am going to close the file"
+
+target.close
+
+# puts "Truncating the file. Goodbye!"
+# target.truncate(5)
 
 puts "Now I'm going to ask you for three lines"
 
